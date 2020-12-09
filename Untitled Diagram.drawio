@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T12:32:50.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="XguNblQj9_CQNOBvM055" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-09T12:51:01.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="sogvauTzkkLbefjEpu_p" version="14.0.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ac6H3vPhmwQ5J9NAEgWj-42" value="Hiển thị dữ liệu thống kê" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.38;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ac6H3vPhmwQ5J9NAEgWj-12" target="Ac6H3vPhmwQ5J9NAEgWj-25" edge="1">
+        <mxCell id="Ac6H3vPhmwQ5J9NAEgWj-42" value="Hiển thị dữ liệu thống kê" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="Ac6H3vPhmwQ5J9NAEgWj-12" edge="1">
           <mxGeometry x="-0.0783" y="-10" width="80" relative="1" as="geometry">
             <mxPoint x="170" y="360" as="sourcePoint" />
-            <mxPoint x="250" y="360" as="targetPoint" />
+            <mxPoint x="110" y="350" as="targetPoint" />
             <Array as="points">
               <mxPoint x="190" y="350" />
             </Array>
