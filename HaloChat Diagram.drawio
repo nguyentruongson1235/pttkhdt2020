@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T16:21:30.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="wc5jr8b65_T1LUuuXHwo" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-07T12:16:34.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="jOJhzdZFlz5gR1FaLU0e" version="14.1.8" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -118,6 +118,80 @@
         </mxCell>
         <mxCell id="ZK5vzvqSoas4yiolMOlN-5" value="Người dùng khác" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
           <mxGeometry x="760" y="90" width="80" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RdSgCXUNlKaxRB1bYFUL" name="ChangePassword">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-0" />
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-1" parent="74AiE91hBPHCZ2IBDXgV-0" />
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="74AiE91hBPHCZ2IBDXgV-1">
+          <mxGeometry x="160" y="50" width="20" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="74AiE91hBPHCZ2IBDXgV-2">
+          <mxGeometry x="5" y="80" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-3" value=":Giao diện" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="74AiE91hBPHCZ2IBDXgV-1">
+          <mxGeometry x="340" y="50" width="100" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="74AiE91hBPHCZ2IBDXgV-3">
+          <mxGeometry x="45" y="90" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-12" value="Gửi lên server" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.02;entryY=0.096;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="74AiE91hBPHCZ2IBDXgV-3" target="74AiE91hBPHCZ2IBDXgV-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="180" as="sourcePoint" />
+            <mxPoint x="150" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-4" value=":Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="74AiE91hBPHCZ2IBDXgV-1">
+          <mxGeometry x="590" y="50" width="100" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="74AiE91hBPHCZ2IBDXgV-4">
+          <mxGeometry x="45" y="160" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-14" value="Kiểm tra mật khẩu cũ và đăt&lt;br&gt;lại mật khẩu mới" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="74AiE91hBPHCZ2IBDXgV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="190" />
+            </Array>
+            <mxPoint x="60" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-5" value="Người dùng" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="74AiE91hBPHCZ2IBDXgV-1">
+          <mxGeometry x="130" y="100" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-8" value="Mở giao diện đổi mật khẩu" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="74AiE91hBPHCZ2IBDXgV-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="150" as="sourcePoint" />
+            <mxPoint x="380" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-9" value="Hiển thị giao diện đổi mật khẩu" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="74AiE91hBPHCZ2IBDXgV-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="180" as="sourcePoint" />
+            <mxPoint x="180" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-10" value="Nhập mật khẩu cũ và mới vào giao diện" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="74AiE91hBPHCZ2IBDXgV-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="210" as="sourcePoint" />
+            <mxPoint x="380" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74AiE91hBPHCZ2IBDXgV-15" value="Thông báo đổi thành công" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="74AiE91hBPHCZ2IBDXgV-1" source="74AiE91hBPHCZ2IBDXgV-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="530" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
